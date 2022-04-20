@@ -23,13 +23,13 @@ describe('AppComponent', () => {
   it(`should have as title 'myfirsapp'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('myfirsapp');
+    expect(app.name).toEqual('Katherine Benjumea');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('myfirsapp app is running!');
+    expect(compiled.querySelector('.black .color')?.textContent).toContain('Katherine Benjumea');
   });
 });

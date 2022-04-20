@@ -1,0 +1,26 @@
+  .black {
+    background-color: aquamarine;
+    color: black;
+    font-family: "Comic Sans MS";
+  }
+
+  .component2 {
+    background-color: navajowhite;
+    color: deeppink;
+    padding: 20px
+  }
+
+  .btn {
+    padding: 20px;
+    color: blueviolet;
+    background-color: #b3b0e6;
+    display: block;
+    margin: 3px;
+  }
+
+  .color {
+      color:blue;
+
+  }
+
+
